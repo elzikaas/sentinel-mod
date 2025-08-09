@@ -1,0 +1,18 @@
+{
+  "vertex": "sentinel:sentinel_rounded",
+  "fragment": "sentinel:sentinel_rounded",
+  "attributes": [],
+  "samplers": [],
+  "uniforms": [
+    {"name":"RectPos","type":"float","count":2,"values":[0,0]},
+    {"name":"RectSize","type":"float","count":2,"values":[0,0]},
+    {"name":"Radius","type":"float","count":1,"values":[0]}
+  ],
+  "blend": {
+    "func": "add",
+    "src_rgb": "src_alpha",
+    "dst_rgb": "one_minus_src_alpha",
+    "src_alpha": "one",
+    "dst_alpha": "zero"
+  }
+}
